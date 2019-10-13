@@ -1,0 +1,4 @@
+#pragma once
+
+#define	GAMEOVER_SHOW_TIME		3000U
+#define GAMEOVER_OPAQUE_SPEED	150.0f

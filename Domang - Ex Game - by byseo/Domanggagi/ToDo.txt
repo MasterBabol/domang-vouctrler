@@ -1,0 +1,10 @@
+--버그--
+collision system에서 포함 관계가 반례가 된다.
+
+--최적화 관련--
+opzFontMgr에서 GetNewFont에서 같은 걸 찾아주는 시스템이 추가되면 좋다.
+
+--추가--
+Label이 자체 버퍼 말고 외부 버퍼 링크할 수 있는 기능 추가
+editbox boundary option 추가
+drawobject정리 draw에 옵션주기

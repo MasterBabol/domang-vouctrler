@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Base">
+      <UniqueIdentifier>{47ad5646-eb9e-43f2-ab8c-d07479de1556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bluetooth">
+      <UniqueIdentifier>{f005171e-b0f5-4727-a1ee-df6e0a73b1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Base\math">
+      <UniqueIdentifier>{29921dce-910a-45a5-a075-7fc837d392cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayForm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreForm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicForm.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMMgr.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DInput.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMgr.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FontMgr.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameLimiter.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniFuncs.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMgr.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Hosung.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassDrawer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BluetoothDeviceSearch.cpp">
+      <Filter>소스 파일\Bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="BluetoothSocket.cpp">
+      <Filter>소스 파일\Bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="VOUCtrlerLibrary.cpp">
+      <Filter>소스 파일\Bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="CarMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticList.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="VOUCtrlerClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClCompile>
+    <ClCompile Include="22Matrix.cpp">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClCompile>
+    <ClCompile Include="2DVector.cpp">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClCompile>
+    <ClCompile Include="2DLine.cpp">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClCompile>
+    <ClCompile Include="2DPolygon.cpp">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMgr.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SFXMgr.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayForm.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicForm.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BGMMgr.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="audiere.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DInput.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawObject.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMgr.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FontMgr.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameLimiter.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniFuncs.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="WndMgr.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreForm.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Hosung.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Hosung_config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassDrawer.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassDrawer_config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BluetoothDeviceSearch.h">
+      <Filter>소스 파일\Bluetooth</Filter>
+    </ClInclude>
+    <ClInclude Include="BluetoothSocket.h">
+      <Filter>소스 파일\Bluetooth</Filter>
+    </ClInclude>
+    <ClInclude Include="VOUCtrlerLibrary.h">
+      <Filter>소스 파일\Bluetooth</Filter>
+    </ClInclude>
+    <ClInclude Include="CarMgr.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticList.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CarMgr_config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Car_config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="VOUCtrlerClass.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClInclude>
+    <ClInclude Include="22Matrix.h">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClInclude>
+    <ClInclude Include="2DVector.h">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClInclude>
+    <ClInclude Include="2DLine.h">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClInclude>
+    <ClInclude Include="2DPolygon.h">
+      <Filter>소스 파일\Base\math</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayForm_config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreMgr.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreForm_config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioMgr.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SFXMgr.h">
+      <Filter>소스 파일\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ToDo.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
